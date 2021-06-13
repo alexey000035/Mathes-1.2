@@ -130,6 +130,7 @@ Window {
             font.pixelSize: 20
             text: "Hunter "
             color: "black"
+//            anchors.left: player1text.right
             anchors.left: player2textinput.left
             selectionColor: "white"
             onAccepted: {
@@ -179,6 +180,7 @@ Window {
         anchors.centerIn: parent
         visible:  vis
     }
+
 
 
     Image {
